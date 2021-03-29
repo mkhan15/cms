@@ -88,8 +88,7 @@
             <option value="{{$tag->id}}">
             @if(isset($post))
                 @if($post->hasTag($tag->id))
-
-                  selected
+                selected
                 @endif
                 @endif
 
